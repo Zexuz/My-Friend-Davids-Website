@@ -1,8 +1,8 @@
 html, body {
-  height: 100%;
   margin: 0;
   background-color: black;
-  color: white; }
+  color: white;
+  font-family: 'Lato', sans-serif; }
 
 #container {
   width: 90%;
@@ -22,7 +22,7 @@ html, body {
     .box .row.footer {
       flex: 0 1 40px; }
 
-.row.header section.left p, footer.row section {
+.row.header section.left p {
   margin: 0px; }
 
 article {
@@ -41,5 +41,27 @@ aside {
 
 .left {
   float: left; }
+
+.active {
+  position: relative;
+  color: #ffffa6; }
+
+.active::after {
+  border-bottom: 0.125em solid #ffffa6;
+  content: "";
+  left: 0;
+  margin-top: calc((0.125em / 2));
+  position: absolute;
+  right: 0;
+  top: 45%; }
+
+.gold {
+  color: #ffffa6; }
+
+.left i {
+  margin: 10px; }
+
+.right i {
+  margin: 10px; }
 
 /*# sourceMappingURL=test.css.map */

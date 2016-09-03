@@ -6,6 +6,7 @@ function init(): any {
     setContainerHeight();
     reSizeElement();
     $(window).on('resize', onResize);
+    $(window).on("wheel", onScroll);
 }
 
 function onResize(): any {
@@ -30,7 +31,6 @@ function reSizeElement() {
     centerElement($('#navbar'), $('#content'));
 }
 
-
 function setContainerHeight() {
 
     var outerMargin = 5;
@@ -42,6 +42,15 @@ function setContainerHeight() {
     container.css({'margin-top': margin});
     container.css({'margin-bottom': margin});
     container.css({'width': 100 - (outerMargin * 2 ) + "%"});
+
+}
+
+function onScroll() {
+
+    //change content
+    //changeNavBar
+    //reMargin stuff
+
 
 }
 
