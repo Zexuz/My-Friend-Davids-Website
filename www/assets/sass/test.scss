@@ -37,6 +37,18 @@ html, body {
 article {
     width: 100%;
     text-align: center;
+
+    ul{
+
+        list-style-position:inside;
+        li{
+            display: inline;
+        }
+    }
+}
+
+.smallText{
+    font-size: smaller;
 }
 
 aside {

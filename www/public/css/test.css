@@ -28,6 +28,13 @@ html, body {
 article {
   width: 100%;
   text-align: center; }
+  article ul {
+    list-style-position: inside; }
+    article ul li {
+      display: inline; }
+
+.smallText {
+  font-size: smaller; }
 
 aside {
   position: fixed; }
