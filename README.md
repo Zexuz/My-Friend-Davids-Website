@@ -1,3 +1,7 @@
+# OBS Deprecated 
+
+## It is now under [This fork](https://github.com/Zexuz/Random-Filer/tree/master/Portfolio)
+
 # My-Friend-Davids-Website
 My friend David wanted a website, and as the good friend I am, I did one. (By ignoring simple css and coding hardcore javascript)
 
